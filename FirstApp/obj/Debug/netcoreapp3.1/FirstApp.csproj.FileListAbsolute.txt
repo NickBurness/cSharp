@@ -1,0 +1,11 @@
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\FirstApp\bin\Debug\netcoreapp3.1\FirstApp.exe
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\FirstApp\bin\Debug\netcoreapp3.1\FirstApp.deps.json
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\FirstApp\bin\Debug\netcoreapp3.1\FirstApp.runtimeconfig.json
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\FirstApp\bin\Debug\netcoreapp3.1\FirstApp.runtimeconfig.dev.json
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\FirstApp\bin\Debug\netcoreapp3.1\FirstApp.dll
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\FirstApp\bin\Debug\netcoreapp3.1\FirstApp.pdb
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\FirstApp\obj\Debug\netcoreapp3.1\FirstApp.csprojAssemblyReference.cache
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\FirstApp\obj\Debug\netcoreapp3.1\FirstApp.AssemblyInfoInputs.cache
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\FirstApp\obj\Debug\netcoreapp3.1\FirstApp.AssemblyInfo.cs
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\FirstApp\obj\Debug\netcoreapp3.1\FirstApp.dll
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\FirstApp\obj\Debug\netcoreapp3.1\FirstApp.pdb

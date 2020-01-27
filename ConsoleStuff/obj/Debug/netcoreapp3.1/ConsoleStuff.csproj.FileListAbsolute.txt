@@ -1,0 +1,11 @@
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\ConsoleStuff\bin\Debug\netcoreapp3.1\ConsoleStuff.exe
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\ConsoleStuff\bin\Debug\netcoreapp3.1\ConsoleStuff.deps.json
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\ConsoleStuff\bin\Debug\netcoreapp3.1\ConsoleStuff.runtimeconfig.json
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\ConsoleStuff\bin\Debug\netcoreapp3.1\ConsoleStuff.runtimeconfig.dev.json
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\ConsoleStuff\bin\Debug\netcoreapp3.1\ConsoleStuff.dll
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\ConsoleStuff\bin\Debug\netcoreapp3.1\ConsoleStuff.pdb
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\ConsoleStuff\obj\Debug\netcoreapp3.1\ConsoleStuff.csprojAssemblyReference.cache
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\ConsoleStuff\obj\Debug\netcoreapp3.1\ConsoleStuff.AssemblyInfoInputs.cache
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\ConsoleStuff\obj\Debug\netcoreapp3.1\ConsoleStuff.AssemblyInfo.cs
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\ConsoleStuff\obj\Debug\netcoreapp3.1\ConsoleStuff.dll
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\ConsoleStuff\obj\Debug\netcoreapp3.1\ConsoleStuff.pdb

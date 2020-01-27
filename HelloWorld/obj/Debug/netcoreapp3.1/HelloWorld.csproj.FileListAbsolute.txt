@@ -1,0 +1,11 @@
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.exe
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.deps.json
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.runtimeconfig.json
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.runtimeconfig.dev.json
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.dll
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.pdb
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.csprojAssemblyReference.cache
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.AssemblyInfoInputs.cache
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.AssemblyInfo.cs
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.dll
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.pdb

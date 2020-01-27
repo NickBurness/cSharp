@@ -1,11 +1,14 @@
 using System;
 
-public class HelloWorld
+namespace Hello
 {
-    public static void Main()
+    public class HelloWorld
     {
-        // System.ConsoleWriteLine writes to the console.
-        // in the case of this example it writes the string Hello World as defined within the abbreviation marks.
-        System.Console.WriteLine("Hello, World!");
+        public static void Main()
+        {
+            // System.ConsoleWriteLine writes to the console.
+            // in the case of this example it writes the string Hello World as defined within the abbreviation marks.
+            System.Console.WriteLine("Hello, World!");
+        }
     }
 }
