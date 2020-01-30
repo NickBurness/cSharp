@@ -9,15 +9,42 @@ namespace GradeBook
         {
             var book = new Book("Nicks GradeBook");
 
-            book.AddGrade(50.1);
-            book.AddGrade(78.6);
-            book.AddGrade(84.3);
-            book.AddGrade(90);
+            // ..
+            while (true)
+            {
+                Console.WriteLine("Enter a Grade or 'q' to quit or 'd' when done with the program");
+                var input = Console.ReadLine();
+
+                if (input == "q" || input == "d")
+                {
+                    break;
+                }
+
+                try
+                {
+                var grade = double.Parse(input);
+                book.AddGrade(grade);
+                }
+                catch(ArgumentException argexception)
+                {
+                    Console.WriteLine(argexception.Message);
+                    throw;
+                }
+                catch(FormatException formatexception)
+                {
+                    Console.WriteLine(formatexception.Message);
+                }
+                finally
+                {
+
+                }
+            }
 
             var stats = book.GetStatistics();
             Console.WriteLine($"The average grade is {stats.Average:N2}");
             Console.WriteLine($"The highest grade is {stats.High:N2}");
             Console.WriteLine($"The lowest grade is {stats.Low:N2}");
+            Console.WriteLine($"The letter is {stats.Letter}");
         }
     }
 }

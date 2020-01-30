@@ -4,7 +4,32 @@ using Xunit;
 namespace GradeBook.Tests
 {
     public class TypeTests
-    {
+    { 
+        [Fact]
+        public void DoNotAllowAGradeBelowZeroOrGreaterThanOneHundred()
+        {
+            var book = new Book("Book1");
+            book.AddGrade(105);
+            Assert.Equal("Invalid Value", "Invalid Value");
+        }
+
+        [Fact]
+        public void StringsBehaveLikeValueTypes()
+        {
+            string name = "Nick";
+
+            string uppername = MakeUpperCase(name);
+
+            Assert.Equal("Nick", name);
+            Assert.Equal("NICK", uppername);
+        }
+
+        private string MakeUpperCase(string parameter)
+        {
+            return parameter.ToUpper();
+            
+        }
+
         [Fact]
         public void ValueTypesAlsoPassByValue()
         {
