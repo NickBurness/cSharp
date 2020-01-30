@@ -25,22 +25,26 @@ namespace GradeBook
                 var grade = double.Parse(input);
                 book.AddGrade(grade);
                 }
-                catch(ArgumentException argexception)
+                catch(ArgumentException exception)
                 {
-                    Console.WriteLine(argexception.Message);
+                    Console.WriteLine(exception.Message);
                     throw;
                 }
-                catch(FormatException formatexception)
+                catch(FormatException exception)
                 {
-                    Console.WriteLine(formatexception.Message);
+                    Console.WriteLine(exception.Message);
                 }
                 finally
                 {
-
+                    Console.WriteLine("**");
                 }
             }
 
             var stats = book.GetStatistics();
+
+            //////
+            Console.WriteLine(Book.CATEGORY);
+            Console.WriteLine($"For the book named {book.Name}");
             Console.WriteLine($"The average grade is {stats.Average:N2}");
             Console.WriteLine($"The highest grade is {stats.High:N2}");
             Console.WriteLine($"The lowest grade is {stats.Low:N2}");

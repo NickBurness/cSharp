@@ -1,16 +1,48 @@
 using System;
+using System.Collections.Generic;
 using Xunit;
 
 namespace GradeBook.Tests
 {
     public class TypeTests
-    { 
+    {
+        int count = 0;
+
+        public delegate string WriteLogDelegate(string logMessage);
+
+        [Fact]
+        public void WriteLogDelegateCanPointToMethod()
+        {
+            WriteLogDelegate log = DelegateReturnMethod;
+
+            //  log = new WriteLogDelegate(DelegateReturnMethod);
+            log += DelegateReturnMethod;
+            log += IncrementCount;
+
+            var result = log("Hello");
+
+            Assert.Equal(3, count);
+        }
+
+        string DelegateReturnMethod(string message)
+        {
+            count++;
+            return message;
+        }
+
+        string IncrementCount(string message)
+        {
+            count++;
+            return message.ToLower();
+        }
+
+
         [Fact]
         public void DoNotAllowAGradeBelowZeroOrGreaterThanOneHundred()
         {
             var book = new Book("Book1");
-            book.AddGrade(105);
-            Assert.Equal("Invalid Value", "Invalid Value");
+            Assert.Throws<ArgumentException>(
+            () => book.AddGrade(105));
         }
 
         [Fact]
