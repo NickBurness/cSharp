@@ -8,8 +8,11 @@ namespace GradeBook
         static void Main(string[] args)
         {
             var book = new Book("Nicks GradeBook");
+            book.GradeAdded += OnGradeAdded;
+            book.GradeAdded += OnGradeAdded;
+            book.GradeAdded -= OnGradeAdded;
 
-            // ..
+
             while (true)
             {
                 Console.WriteLine("Enter a Grade or 'q' to quit or 'd' when done with the program");
@@ -28,7 +31,6 @@ namespace GradeBook
                 catch(ArgumentException exception)
                 {
                     Console.WriteLine(exception.Message);
-                    throw;
                 }
                 catch(FormatException exception)
                 {
@@ -49,6 +51,11 @@ namespace GradeBook
             Console.WriteLine($"The highest grade is {stats.High:N2}");
             Console.WriteLine($"The lowest grade is {stats.Low:N2}");
             Console.WriteLine($"The letter is {stats.Letter}");
+        }
+
+        static void OnGradeAdded(object sender, EventArgs e)
+        {
+            Console.WriteLine($"A new grade was added.");
         }
     }
 }
