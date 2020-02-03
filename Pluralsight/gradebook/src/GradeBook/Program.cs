@@ -10,7 +10,21 @@ namespace GradeBook
             var book = new Book("Nicks GradeBook");
             book.GradeAdded += OnGradeAdded;
 
+            EnterGrades(book);
 
+            var stats = book.GetStatistics();
+
+            //////
+            Console.WriteLine(Book.CATEGORY);
+            Console.WriteLine($"For the book named {book.Name}");
+            Console.WriteLine($"The average grade is {stats.Average:N2}");
+            Console.WriteLine($"The highest grade is {stats.High:N2}");
+            Console.WriteLine($"The lowest grade is {stats.Low:N2}");
+            Console.WriteLine($"The letter is {stats.Letter}");
+        }
+
+        private static void EnterGrades(Book book)
+        {
             while (true)
             {
                 Console.WriteLine("Enter a Grade or 'q' to quit or 'd' when done with the program");
@@ -23,14 +37,14 @@ namespace GradeBook
 
                 try
                 {
-                var grade = double.Parse(input);
-                book.AddGrade(grade);
+                    var grade = double.Parse(input);
+                    book.AddGrade(grade);
                 }
-                catch(ArgumentException exception)
+                catch (ArgumentException exception)
                 {
                     Console.WriteLine(exception.Message);
                 }
-                catch(FormatException exception)
+                catch (FormatException exception)
                 {
                     Console.WriteLine(exception.Message);
                 }
@@ -39,16 +53,6 @@ namespace GradeBook
                     Console.WriteLine("**");
                 }
             }
-
-            var stats = book.GetStatistics();
-
-            //////
-            Console.WriteLine(Book.CATEGORY);
-            Console.WriteLine($"For the book named {book.Name}");
-            Console.WriteLine($"The average grade is {stats.Average:N2}");
-            Console.WriteLine($"The highest grade is {stats.High:N2}");
-            Console.WriteLine($"The lowest grade is {stats.Low:N2}");
-            Console.WriteLine($"The letter is {stats.Letter}");
         }
 
         static void OnGradeAdded(object sender, EventArgs e)
