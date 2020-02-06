@@ -26,3 +26,6 @@ C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\Pluralsig
 C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\Pluralsight\bethanys-pie-shop\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.RazorTargetAssemblyInfo.cs
 C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\Pluralsight\bethanys-pie-shop\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.Views.pdb
 C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\Pluralsight\bethanys-pie-shop\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.csproj.CopyComplete
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\Pluralsight\bethanys-pie-shop\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.csprojAssemblyReference.cache
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\Pluralsight\bethanys-pie-shop\BethanysPieShop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\Pluralsight\bethanys-pie-shop\BethanysPieShop\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
