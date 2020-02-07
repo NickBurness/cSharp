@@ -64,3 +64,5 @@ C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\Pluralsig
 C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\Pluralsight\bethanys-pie-shop\BethanysPieShop\obj\Debug\netcoreapp3.1\BethanysPieShop.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\Pluralsight\bethanys-pie-shop\BethanysPieShop\obj\Debug\netcoreapp3.1\Razor\Views\Pie\Details.cshtml.g.cs
 C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\Pluralsight\bethanys-pie-shop\BethanysPieShop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_PieCard.cshtml.g.cs
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\Pluralsight\bethanys-pie-shop\BethanysPieShop\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\NBURNESS\OneDrive - Department for Education\Documents\Csharp\Pluralsight\bethanys-pie-shop\BethanysPieShop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Carousel.cshtml.g.cs
