@@ -47,8 +47,8 @@ namespace BethanysPieShop
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            app.UseRouting();
 
+            app.UseRouting();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
