@@ -34,7 +34,7 @@ namespace BethanysPieShop.Models
 
             return new ShoppingCart(context) { ShoppingCartId = cartId };
         }
-
+        // Add to cart
         public void AddToCart(Pie pie, int amount)
         {
             var shoppingCartItem =
@@ -58,7 +58,7 @@ namespace BethanysPieShop.Models
             }
             _appDbContext.SaveChanges();
         }
-
+        // remove from cart
         public int RemoveFromCart(Pie pie)
         {
             var shoppingCartItem =
